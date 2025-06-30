@@ -1,55 +1,61 @@
-
 # 🎮 Tic-Tac-Toe (C++) — Player vs Player | Player vs Computer
 
-This is a console-based **Tic-Tac-Toe game** written in C++, featuring:
-- **Player vs Player (PvP)**
-- **Player vs Computer (PvC)** modes
-- Score tracking, win/draw detection, and a user-friendly terminal interface
+This is a console-based **Tic-Tac-Toe** game written in C++, featuring:
+
+* **Player vs Player (PvP)** mode
+* **Player vs Computer (PvC)** mode
+* Score tracking, win/draw detection, and a user-friendly terminal interface
 
 ---
 
 ## 🧠 How to Play
 
-- When the game starts, choose:
+* At startup, choose the game mode:
 
-1. Player vs Player
-2. Player vs Computer
+  1. Player vs Player
+  2. Player vs Computer
 
+* The board is laid out as follows:
 
-- The board is numbered as follows:
+```
+ 1 | 2 | 3
+---|---|---
+ 4 | 5 | 6
+---|---|---
+ 7 | 8 | 9
+```
 
-<pre> 1 | 2 | 3 ---|---|--- 4 | 5 | 6 ---|---|--- 7 | 8 | 9 </pre>
+* Players take turns placing their marks:
 
-- Players take turns placing their marks:
-- `Player 1` uses `X`
-- `Player 2` or `Computer` uses `O`
+  * `Player 1` uses `X`
+  * `Player 2` or the `Computer` uses `O`
 
-- The first to get 3 in a row wins.
+* The first player to get **three in a row** wins (horizontally, vertically, or diagonally).
 
-- You can play as many rounds as you'd like. Final scores are displayed at the end.
+* You can play multiple rounds. Scores are displayed after each round and at the end.
 
+---
 
 ## 🛠️ How to Compile and Run
 
-bash
+```bash
 g++ -o tictactoe tictactoe.cpp
 ./tictactoe
+```
 
-
-Make sure you have `g++` or another C++ compiler installed.
+> ✅ Make sure `g++` or any C++ compiler is installed on your system.
 
 ---
 
 ## 🎯 Features
 
-* 🔄 Selectable game mode (PvP or PvC)
-* ✅ Input validation (prevents overwriting cells or invalid entries)
-* 🧠 Simple AI (Computer picks a random available cell)
-* 📈 Score tracking across rounds
-* 🧼 Clean board rendering and user prompts
+* 🔄 **Game Mode Selection**: Choose between PvP and PvC
+* ✅ **Input Validation**: Prevents overwriting cells or entering invalid values
+* 🤖 **Simple AI**: The computer randomly selects from available cells
+* 📊 **Score Tracking**: Displays cumulative scores across rounds
+* 🧼 **Clean UI**: Neatly rendered board and user-friendly prompts
 
 ---
-
 
 ## 👨‍💻 Author
 
@@ -62,6 +68,6 @@ Make sure you have `g++` or another C++ compiler installed.
 
 ## 📜 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open-source and available under the [MIT License](LICENSE).
 
 
