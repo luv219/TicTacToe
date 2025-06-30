@@ -55,14 +55,6 @@ Make sure you have `g++` or another C++ compiler installed.
 
 ---
 
-## 📦 Project Structure
-
-
-tictactoe.cpp      # Main game logic
-README.md          # Game description and usage guide
-
-
----
 
 ## 👨‍💻 Author
 
