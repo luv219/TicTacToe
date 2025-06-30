@@ -18,11 +18,12 @@ This is a console-based **Tic-Tac-Toe game** written in C++, featuring:
 
 - The board is numbered as follows:
 
-| 1   | 2   | 3   |
-| --- | --- | --- |
-| 4   | 5   | 6   |
-| --- | --- | --- |
-| 7   | 8   | 9   |
+ 1 | 2 | 3
+---|---|---
+ 4 | 5 | 6
+---|---|---
+ 7 | 8 | 9
+
 
 
 - Players take turns placing their marks:
