@@ -57,17 +57,4 @@ g++ -o tictactoe tictactoe.cpp
 
 ---
 
-## 👨‍💻 Author
-
-**Luv Gupta**
-📫 Email: [luv.g1902@gmail.com](mailto:luv.g1902@gmail.com)
-🔗 [LinkedIn](https://linkedin.com/in/luv-gupta-1842322b0)
-💻 [GitHub](https://github.com/luv219)
-
----
-
-## 📜 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
 
